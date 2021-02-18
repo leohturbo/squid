@@ -88,7 +88,7 @@ elif cat /etc/os-release | grep PRETTY_NAME | grep "buster"; then
     systemctl restart squid
 else
     echo "OS NOT SUPPORTED.\n"
-    echo "Contact admin@leohturbo.in to add support for your os."
+    echo "All the credits go to serverok, contact serverok github.com/serverok/squid."
     exit 1;
 fi
 
