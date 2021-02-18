@@ -90,6 +90,6 @@ else
     echo "OS NOT SUPPORTED.\n"
     echo "All the credits go to serverok, contact serverok github.com/serverok/squid."
     exit 1;
-fi
+#fi
 
 #/usr/bin/htpasswd -b -c /etc/squid/passwd USERNAME_HERE PASSWORD_HERE
