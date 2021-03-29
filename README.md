@@ -7,7 +7,7 @@ This repo was cloned for personal use only.
 To install, run the script
 
 ```
-wget https://raw.githubusercontent.com/leohturbo/squid/master/squid3-install.sh
+wget https://raw.githubusercontent.com/leohturbo/squid/main/squid3-install.sh
 chmod 755 squid3-install.sh
 sudo ./squid3-install.sh
 ```
@@ -20,7 +20,7 @@ Before you can configure squid to use muliple IP address, you need to add IP to 
 Once IP added to your server, you can configure it to use with squid proxy by running following command
 
 ```
-wget https://raw.githubusercontent.com/leohturbo/squid/master/squid-conf-ip.sh && bash squid-conf-ip.sh
+wget https://raw.githubusercontent.com/leohturbo/squid/main/squid-conf-ip.sh && bash squid-conf-ip.sh
 ```
 
 # Create Users
